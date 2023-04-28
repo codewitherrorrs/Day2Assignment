@@ -6,10 +6,9 @@ namespace Day2Assignment
     {
         public static void Main(string[] args) 
         {
-            Polymorhism obj = new Polymorhism();
-            Dog dog = new Dog();
-            obj.sound();
-            dog.sound();
+            MethodOverloading obj = new MethodOverloading();
+            obj.Method();
+            obj.Method(50, 50);
             Console.ReadKey();
         }
     }
