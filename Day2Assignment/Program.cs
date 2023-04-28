@@ -6,8 +6,10 @@ namespace Day2Assignment
     {
         public static void Main(string[] args) 
         {
-            ObjectAndClass obj = new ObjectAndClass();
-            obj.ClassAndObject();
+            Polymorhism obj = new Polymorhism();
+            Dog dog = new Dog();
+            obj.sound();
+            dog.sound();
             Console.ReadKey();
         }
     }
