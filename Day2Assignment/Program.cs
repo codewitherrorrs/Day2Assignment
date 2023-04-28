@@ -6,9 +6,10 @@ namespace Day2Assignment
     {
         public static void Main(string[] args) 
         {
-            MethodOverloading obj = new MethodOverloading();
+            MethodOverride obj = new MethodOverride();
             obj.Method();
-            obj.Method(50, 50);
+            Derived obj_One = new Derived();
+            obj_One.Method();
             Console.ReadKey();
         }
     }
