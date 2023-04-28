@@ -48,6 +48,11 @@ namespace Day2Assignment
           /*  Derived_One obj = new Derived_One();
             obj.Show();
             obj.ShowMethod(); */
+
+            //Abstractclass and Method
+            AbstractChild obj = new AbstractChild();
+            obj.Method();
+            obj.Method_One();
         }
     }
 }
